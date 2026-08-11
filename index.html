@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plex_uz — Professional Soch Parvarishi | SilkPlex™, ArganPlex™, KeraPlex™, ManPlex™</title>
+  <meta name="description" content="Plex_uz — Sochlaringiz uchun to'liq professional tiklanish vositasi. SilkPlex™, ArganPlex™, KeraPlex™ va ManPlex™ premium AQSH formulasi.">
+  
+  <!-- Google Fonts: Playfair Display, Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (LUXÉVA Template Style) -->
+  <div class="announcement-bar">
+    <div class="container bar-grid">
+      <div class="bar-left">
+        <span><i class="fa-solid fa-truck-fast"></i> O'zbekiston bo'ylab yetkazib berish</span>
+      </div>
+      <div class="bar-center">
+        <span>✨ BIRINCHI BUYURTMA UCHUN 10% CHEGIRMA | PROMO-KOD: <strong>Plex 10</strong></span>
+      </div>
+      <div class="bar-right">
+        <a href="#faq" class="bar-link">YORDAM & FAQ</a>
+        <a href="#track" class="bar-link">BUYURTMANI KUZATISH</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container">
+      
+      <!-- Top Branding Row: Plex_uz title on left, Bayroqli Distribyutor Banner, Logo opposite on right -->
+      <div class="header-top-row">
+        
+        <!-- Plex_uz Brand Title & Bayroqli Distribyutor Rasm Batori -->
+        <a href="#" class="brand-title-wrap">
+          <span class="brand-name">Plex_uz</span>
+          <span class="brand-subtitle">USA FORMULATED HAIRCARE</span>
+          <!-- Bayroqli rasm (distributor_flags_banner.png) -->
+          <img src="assets/distributor_flags_banner.png" alt="O'zbekistondagi rasmiy distribyutor - Formulated in USA - Made in Turkey" class="distributor-flags-img">
+        </a>
+
+        <!-- Logo Plex_uz roparasida (o'ng tomonda) — Yangi shaffof marvarid emblemasi -->
+        <div class="brand-logo-opposite" id="headerLogoContainer">
+          <a href="#" class="brand-logo-link" title="Plex_uz Logo">
+            <img src="assets/plex_logo.png" alt="Plex_uz Official Logo" class="brand-logo-img">
+          </a>
+        </div>
+      </div>
+
+      <!-- Navigation Links & Utility Icons Row -->
+      <div class="header-nav-row">
+        <nav class="nav-menu" id="navMenu">
+          <ul class="nav-links-list">
+            <li><a href="#hero" class="nav-item-link active">YANGILIKLAR</a></li>
+            <li><a href="#hair-guide" class="nav-item-link">SOCH TURIGA MOS SHAMPUN</a></li>
+            <li><a href="#ingredients-section" class="nav-item-link">SHAMPUN TARKIBI</a></li>
+            <li><a href="#bestsellers" class="nav-item-link">MAHSULOTLAR ▾</a></li>
+            <li><a href="#manplex" class="nav-item-link">MANPLEX™ 3IN1</a></li>
+            <li><a href="#solutions" class="nav-item-link">TO'PLAMLAR ▾</a></li>
+            <li><a href="#about" class="nav-item-link">BIZ HAQIMIZDA</a></li>
+            <li><a href="#bestsellers" class="nav-item-link sale-link">AKSIYA</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="action-icon-btn" id="searchBtn" title="Qidirish">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="action-icon-btn" id="userProfileBtn" title="Profil">
+            <i class="fa-regular fa-user"></i>
+          </button>
+          <button class="action-icon-btn" id="wishlistBtn" title="Saralanganlar">
+            <i class="fa-regular fa-heart"></i>
+            <span class="badge-count wishlist-count">0</span>
+          </button>
+          <button class="action-icon-btn cart-trigger" id="cartBtn" title="Savat">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge-count cart-count">0</span>
+          </button>
+          <a href="https://instagram.com" target="_blank" class="action-icon-btn" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://t.me" target="_blank" class="action-icon-btn" title="Telegram">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+          <button class="mobile-toggle-btn" id="mobileToggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with Interactive Video Showcase Player -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text-side">
+          <div class="hero-tag">
+            <i class="fa-solid fa-sparkles"></i>
+            <span>NEW COLLECTION</span>
+          </div>
+
+          <!-- Sarlavha: Strong hair, healthier you. / Kuchli sochlar — sog'lomroq siz. -->
+          <h1 class="hero-headline">
+            Strong hair, healthier you.<br>
+            <span style="font-size: 2.2rem; color: var(--brand-dark-cream); font-weight: 500;">Kuchli sochlar — sog'lomroq siz.</span>
+          </h1>
+
+          <!-- Sarlavha ostidagi keng matn (Ingliz va O'zbek turlarida) -->
+          <p class="hero-subtext">
+            ✨ <strong>Experience ultimate hair transformation with our professional-grade formulas. Crafted with clean, nature-powered ingredients and engineered for all hair types. Discover premium care with our specialized SilkPlex™, ArganPlex™, KeraPlex™, and ManPlex™ collections.</strong>
+            <br><br>
+            ✨ <strong>Professional formulalarimiz yordamida sochlaringizning haqiqiy go'zalligini his eting. Tabiiy, toza ingredientlardan yaratilgan ushbu parvarish har qanday soch turiga mukammal mos keladi. SilkPlex™, ArganPlex™, KeraPlex™ va ManPlex™ premium kolleksiyalari bilan sochlaringizga yuqori darajadagi g'amxo'rlikni hadya qiling.</strong>
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#bestsellers" class="btn-dark-green">
+              SHOP NOW
+            </a>
+            <a href="#solutions" class="btn-outline-dark">
+              EXPLORE COLLECTION
+            </a>
+          </div>
+
+          <div class="hero-slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+
+        <!-- Matn ro'parasidagi Direct Video Showcase Player (Cheti va ortiqcha belgilar olib tashlangan) -->
+        <div class="hero-visual-wrap">
+          <div class="hero-video-card borderless-hero-video">
+            <video id="heroVideo" class="hero-video-player" autoplay loop muted playsinline controls>
+              <source src="https://cdn.coverr.co/videos/coverr-applying-hair-care-product-5231/1080p.mp4" type="video/mp4">
+              Sizning brauzeringiz video ijrosini qo'llab-quvvatlamaydi.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges Bar (4 Columns) -->
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div>
+            <h4 class="trust-title">TABIIY VA XAVFSIZ INGREDIENTLAR</h4>
+            <p class="trust-desc">Sochingiz va bosh terishingiz uchun foydali</p>
+          </div>
+        </div>
+        
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+          <div>
+            <h4 class="trust-title">KLINIK SINOVDAN O'TGAN</h4>
+            <p class="trust-desc">Kafolatlangan va isbotlangan natija</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+          <div>
+            <h4 class="trust-title">YETKAZISH XIZMATI</h4>
+            <p class="trust-desc">Butun O'zbekiston bo'ylab yetkazib berish</p>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <h4 class="trust-title">KONSULTATSIYA</h4>
+            <p class="trust-desc">Bepul va tezkor konsultatsiya</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hair Diagnostics Guide: Qaysi sochga qaysi shampun to'g'ri keladi? (5-Card Grid Showcase) -->
+    <section class="section hair-guide-section" id="hair-guide">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">SOCH TURLARI VA MOS FORMULALAR</span>
+          <h2 class="section-title">Qaysi sochga qaysi shampun to'g'ri keladi?</h2>
+          <p class="section-desc">Sochingiz va soqolingizning hozirgi holatiga qarab, eng ideal Plex_uz to'plamini tanlang.</p>
+        </div>
+
+        <!-- 5 Cards Showcase Grid: 3 Ayollar To'plami Chapda + 2 Erkaklar ManPlex To'plami O'ngda -->
+        <div class="hair-guide-grid hair-guide-grid-5">
+          
+          <!-- Guide 1: KeraPlex™ -->
+          <div class="hair-guide-card">
+            <div class="hg-img-box">
+              <img src="assets/keraplex_hair_match.jpg" alt="KeraPlex™ Bo'yalgan sochlar uchun moslik">
+            </div>
+            <div class="hg-body">
+              <span class="hg-badge badge-peach">Bo'yalgan & Zararlangan</span>
+              <h3>KeraPlex™</h3>
+              <p class="hg-match-target">✨ Bo'yalgan, kraskalangan va dazmoldan kuydirilgan sochlar uchun ideal tanlov</p>
+              <p class="hg-desc">Tabiiy keratin, ipak va ozuqaviy moylar soch tolasi zanjirini molekulyar darajada tiklaydi hamda bo'yoq yorqinligini uzoq saqlaydi.</p>
+              <ul class="hg-results-list">
+                <li><i class="fa-solid fa-circle-check"></i> Bo'yoq yorqinligini 100% saqlash</li>
+                <li><i class="fa-solid fa-circle-check"></i> Keratin zanjirini tiklash</li>
+                <li><i class="fa-solid fa-circle-check"></i> Egiluvchanlik va silliqlik</li>
+              </ul>
+              <a href="#bestsellers" class="btn-dark-green btn-sm" style="margin-top:auto;">KeraPlex™ Tanlash</a>
+            </div>
+          </div>
+
+          <!-- Guide 2: SilkPlex™ -->
+          <div class="hair-guide-card">
+            <div class="hg-img-box">
+              <img src="assets/silkplex_hair_match.jpg" alt="SilkPlex™ Barcha soch turlari uchun moslik">
+            </div>
+            <div class="hg-body">
+              <span class="hg-badge badge-gold">Barcha Soch Turlari</span>
+              <h3>SilkPlex™</h3>
+              <p class="hg-match-target">💧 Hurpayadigan, qattiq va termohimoyaga muhtoj barcha sochlar uchun</p>
+              <p class="hg-desc">Ipak oqsillari, 4 xil protein va Provitamin B5 (Pantenol) sochlarga ko'zgu dek yaltiroqlik, ipakdek silliqlik va namlik bag'ishlaydi.</p>
+              <ul class="hg-results-list">
+                <li><i class="fa-solid fa-circle-check"></i> Chuqur namlantirish</li>
+                <li><i class="fa-solid fa-circle-check"></i> Hurpayishni yo'qotish</li>
+                <li><i class="fa-solid fa-circle-check"></i> 230°C Issiqdan himoya</li>
+              </ul>
+              <a href="#bestsellers" class="btn-dark-green btn-sm" style="margin-top:auto;">SilkPlex™ Tanlash</a>
+            </div>
+          </div>
+
+          <!-- Guide 3: ArganPlex™ -->
+          <div class="hair-guide-card">
+            <div class="hg-img-box">
+              <img src="assets/arganplex_hair_match.jpg" alt="ArganPlex™ Quruq sochlar uchun moslik">
+            </div>
+            <div class="hg-body">
+              <span class="hg-badge badge-bronze">Quruq & Suvsizlangan</span>
+              <h3>ArganPlex™</h3>
+              <p class="hg-match-target">🌰 Juda quruq, suvsizlangan va sinuvchan sochlar uchun intensiv ozuqa</p>
+              <p class="hg-desc">Morokko Argan moyi va Moringa moyi sochlarni chuqur oziqlantiradi, lipid qavatini tiklaydi va tirik ko'rinish beradi.</p>
+              <ul class="hg-results-list">
+                <li><i class="fa-solid fa-circle-check"></i> Lipidlarni saqlash</li>
+                <li><i class="fa-solid fa-circle-check"></i> Quruqlikni davolash</li>
+                <li><i class="fa-solid fa-circle-check"></i> Oltindek yorqin jilo</li>
+              </ul>
+              <a href="#bestsellers" class="btn-dark-green btn-sm" style="margin-top:auto;">ArganPlex™ Tanlash</a>
+            </div>
+          </div>
+
+          <!-- Guide 4 (NEW): ManPlex™ Hair & Beard System -->
+          <div class="hair-guide-card">
+            <div class="hg-img-box">
+              <img src="assets/manplex_serum_system.jpg" alt="ManPlex™ Hair & Beard Professional System">
+            </div>
+            <div class="hg-body">
+              <span class="hg-badge" style="background:#E2E8F0; color:#1E293B;">Erkaklar Soch & Soqol</span>
+              <h3>ManPlex™ Aloe & Nettle</h3>
+              <p class="hg-match-target">💙 Erkaklar uchun mukammal parvarish endi bir qadam yaqin!</p>
+              <p class="hg-desc">Aloe & Nettle formulasi soch va soqolni chuqur oziqlantirib, ularni mustahkam va sog‘lom saqlaydi. 🌿 Aloe Vera namlik balansini ushlab turadi, Nettle ildizni quvvatlaydi, Silk Proteins esa yumshoqlik beradi. ✨</p>
+              <ul class="hg-results-list">
+                <li><i class="fa-solid fa-circle-check"></i> Sochni mustahkamlaydi</li>
+                <li><i class="fa-solid fa-circle-check"></i> Namlik balansini saqlaydi</li>
+                <li><i class="fa-solid fa-circle-check"></i> Tozalaydi va tetiklantiradi</li>
+              </ul>
+              <p style="font-size:0.78rem; font-weight:700; color:var(--brand-dark-cream); margin-bottom:12px;">Har kuni o‘zingizga ishonch va ideal parvarishni tanlang! 💪</p>
+              <a href="#manplex" class="btn-dark-green btn-sm" style="margin-top:auto;">ManPlex™ Tanlash</a>
+            </div>
+          </div>
+
+          <!-- Guide 5 (NEW): ManPlex™ 3-in-1 Care -->
+          <div class="hair-guide-card">
+            <div class="hg-img-box">
+              <img src="assets/manplex_aloe_nettle.jpg" alt="ManPlex™ 3-in-1 Shampoo Conditioner & Body Wash">
+            </div>
+            <div class="hg-body">
+              <span class="hg-badge" style="background:#E2E8F0; color:#1E293B;">3-in-1 Formula</span>
+              <h3>ManPlex™ 3-in-1 System</h3>
+              <p class="hg-match-target">💙 Soch va bosh terisi uchun qulay va samarali parvarish - ManPlex!</p>
+              <p class="hg-desc">Aloe vera, B5 vitamini, qichitqi o‘t ekstrakti hamda argan, bodom va kokos yog‘lari bilan boyitilgan formula soch va bosh terisini tozalaydi, namlaydi va yumshoq parvarish qiladi.</p>
+              <ul class="hg-results-list">
+                <li><i class="fa-solid fa-circle-check"></i> Soch va soqolni mustahkamlaydi</li>
+                <li><i class="fa-solid fa-circle-check"></i> Namlik va oziqlanish beradi</li>
+                <li><i class="fa-solid fa-circle-check"></i> Yengil formula, tez so'riladi</li>
+              </ul>
+              <p style="font-size:0.78rem; font-weight:700; color:var(--brand-dark-cream); margin-bottom:12px;">🧴 Shampun + konditsioner + dush geli - barchasi bitta mahsulotda!</p>
+              <a href="#manplex" class="btn-dark-green btn-sm" style="margin-top:auto;">ManPlex™ 3in1 Tanlash</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Shampunlar Tarkibi (Product Ingredient Showcase Section) -->
+    <section class="section ingredients-showcase-section" id="ingredients-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">MAHSULOTLAR TARKIBI VA FOYDALI INGREDIENTLAR</span>
+          <h2 class="section-title">Har bir Plex_uz mahsuloti sochingiz ehtiyojiga mos ravishda tanlangan foydali ingredientlar bilan boyitilgan ✨</h2>
+          <p class="section-desc">AQSH formulasi asosida yaratilgan tabiiy yog'lar, keratin, ipak peptidlar va proteinlar majmuasi.</p>
+        </div>
+
+        <div class="ingredients-grid-3col">
+          
+          <!-- Card 1: SilkPlex™ -->
+          <div class="ing-poster-card">
+            <div class="ing-poster-img-wrap">
+              <img src="assets/silkplex_ingredients.jpg" alt="SilkPlex™ Barcha soch turlari uchun ingredientlar" class="ing-poster-img">
+            </div>
+            <div class="ing-poster-content">
+              <span class="ing-badge-pill pill-silk">Silk & Vitamins</span>
+              <h3 class="ing-card-title">SilkPlex™</h3>
+              <p class="ing-card-text">
+                SilkPlex™ - ipak, 4 xil protein va pantenol bilan barcha turdagi sochlarga silliqlik va yorqinlik beradi
+              </p>
+              <div class="ing-tag-pills">
+                <span class="tag-pill">✨ Ipak</span>
+                <span class="tag-pill">🧬 4 xil protein</span>
+                <span class="tag-pill">💧 Pantenol</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: ArganPlex™ -->
+          <div class="ing-poster-card">
+            <div class="ing-poster-img-wrap">
+              <img src="assets/arganplex_ingredients.jpg" alt="ArganPlex™ Quruq sochlar uchun ingredientlar" class="ing-poster-img">
+            </div>
+            <div class="ing-poster-content">
+              <span class="ing-badge-pill pill-argan">Silk & Argan Oil</span>
+              <h3 class="ing-card-title">ArganPlex™</h3>
+              <p class="ing-card-text">
+                ArganPlex™ - argan yog‘i, moringa yog‘i va ipak bilan quruq sochlarni oziqlantiradi va namlaydi
+              </p>
+              <div class="ing-tag-pills">
+                <span class="tag-pill">🌰 Argan yog'i</span>
+                <span class="tag-pill">🌿 Moringa yog'i</span>
+                <span class="tag-pill">✨ Ipak</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: KeraPlex™ -->
+          <div class="ing-poster-card">
+            <div class="ing-poster-img-wrap">
+              <img src="assets/keraplex_ingredients.jpg" alt="KeraPlex™ Bo'yalgan sochlar uchun ingredientlar" class="ing-poster-img">
+            </div>
+            <div class="ing-poster-content">
+              <span class="ing-badge-pill pill-kera">Silk & Keratin</span>
+              <h3 class="ing-card-title">KeraPlex™</h3>
+              <p class="ing-card-text">
+                KeraPlex™ - tabiiy keratin, ipak va tabiiy yog‘lar bilan bo‘yalgan sochlarni tiklash va mustahkamlashga yordam beradi
+              </p>
+              <div class="ing-tag-pills">
+                <span class="tag-pill">🔥 Tabiiy keratin</span>
+                <span class="tag-pill">✨ Ipak</span>
+                <span class="tag-pill">💧 Tabiiy yog'lar</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Slogan Highlight Box -->
+        <div class="slogan-highlight-box">
+          <h3 class="slogan-text">Plex_uz — sog‘lom, kuchli va chiroyli sochlar uchun 🤍</h3>
+          <a href="#bestsellers" class="btn-dark-green btn-sm" style="background:#FFF; color:#1C382B;">MAHSULOTLARNI KO'RISH</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Special Male Care Section: ManPlex™ 3 in 1 Showcase -->
+    <section class="section manplex-showcase-section" id="manplex">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-subtitle">ERKAKLAR UCHUN MAXSUS FORMULA</span>
+          <h2 class="section-title">ManPlex™ 3 in 1 — Qalinroq soch va kuchli ko'rinish</h2>
+          <p class="section-desc">Shampun, Konditsioner va Dush geli — barchasi bitta professional vosita ichida jamlangan! Vaqt va pulingizni tejaydigan universal erkaklar parvarishi.</p>
+        </div>
+
+        <!-- 5 Image Grid Showcase -->
+        <div class="manplex-grid-5">
+          
+          <!-- Card 1: Main Product Overview -->
+          <div class="manplex-card">
+            <div class="mp-img-wrap">
+              <img src="assets/manplex_hero.jpg" alt="ManPlex 3 in 1 Shampun Konditsioner Dush geli">
+            </div>
+            <div class="mp-body">
+              <span class="mp-tag">380 ml | USA Formulated</span>
+              <h3>ManPlex™ 3 in 1 System</h3>
+              <p>Qalinroq soch va kuchliroq ko'rinish beruvchi erkaklar uchun samarali parvarish. AQSHda ishlab chiqilgan va Turkiyada tayyorlangan premium sifat.</p>
+              <ul class="mp-list">
+                <li>✔️ 380 ml katta va hamyonbop hajm</li>
+                <li>✔️ 🇺🇸 Formulated in USA | 🇹🇷 Made in Turkey</li>
+                <li>✔️ Kundalik qulay va tezkor tozalash</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2: AQSH Formulasi: Tabiiy Ingredientlar -->
+          <div class="manplex-card">
+            <div class="mp-img-wrap">
+              <img src="assets/manplex_ingredients.jpg" alt="AQSH Formulasi Tabiiy Ingredientlar ManPlex">
+            </div>
+            <div class="mp-body">
+              <span class="mp-tag">100% Tabiiy Tarkib</span>
+              <h3>AQSH formulasi: tabiiy ingredientlar</h3>
+              <p>Plex_uz laboratoriyasi tomonidan tanlangan oziqlantiruvchi biologik aktiv moddalar sochni ildizidan mustahkamlaydi:</p>
+              <ul class="mp-list">
+                <li><strong>Aloe Vera:</strong> Soch va bosh terisini chuqur namlaydi hamda yumshatadi.</li>
+                <li><strong>Krapiva Ekstrakti:</strong> Soch ildizini mustahkamlab, o'sishni quvvatlaydi va qalin ko'rinish beradi.</li>
+                <li><strong>Provitamin B5 (Pantenol):</strong> Namlik, silliqlik va tabiiy jilo bag'ishlaydi.</li>
+                <li><strong>Ozuqaviy Moylar:</strong> Jojoba, bodom, argan va moringa moylari majmuasi.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3: Nima Uchun 3 in 1 ? -->
+          <div class="manplex-card">
+            <div class="mp-img-wrap">
+              <img src="assets/manplex_why3in1.png" alt="Nima uchun ManPlex 3 in 1">
+            </div>
+            <div class="mp-body">
+              <span class="mp-tag">3 in 1 Texnologiya</span>
+              <h3>Nima uchun ManPlex™ 3 in 1 ?</h3>
+              <p>Butilka bitta — vazifasi uchta! Minimalizmni va tartibni sevuvchi erkaklar uchun eng to'g'ri tanlov:</p>
+              <ul class="mp-list">
+                <li><strong>1. SHAMPUN:</strong> Sochni chuqur tozalaydi va o'sishini rag'batlantiradi.</li>
+                <li><strong>2. KONDITSIONER:</strong> Sochni yumshatadi, oson taralishga yordam beradi.</li>
+                <li><strong>3. DUSH GELI:</strong> Terini tozalaydi, yengillik va tetiklik beradi.</li>
+                <li>✨ <em>ManPlex™ vaqtni va pulni tejaydi, sayohat va sport uchun juda qulay!</em></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 4: Kuchli Natija, Kundalik Parvarish -->
+          <div class="manplex-card">
+            <div class="mp-img-wrap">
+              <img src="assets/manplex_usage.png" alt="Kuchli natija kundalik parvarish ManPlex">
+            </div>
+            <div class="mp-body">
+              <span class="mp-tag">Har kuni foydalanish</span>
+              <h3>Kuchli natija, kundalik parvarish</h3>
+              <p>Har qanday vaziyatda sizga hamroh bo'ladigan universal flakon:</p>
+              <ul class="mp-list">
+                <li><strong>1. Dushda:</strong> Tez va oson tozalash va tetiklashish.</li>
+                <li><strong>2. Sportdan keyin:</strong> Teringizni tozalaydi, yoqimli va yangi hid qoldiradi.</li>
+                <li><strong>3. Sayohatda qulay:</strong> Bitta flakon — to'liq parvarish.</li>
+                <li><strong>4. ManPlex™ 3 in 1:</strong> Soch, teri va tanani tozalaydi. Samarali, ishonchli va hamyonbop yechim.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 5: Oldin va Keyin (Before / After Card - Image Left, Text Right Layout) -->
+          <div class="manplex-card manplex-card-wide">
+            <div class="before-after-layout">
+              <div class="ba-left-img">
+                <img src="assets/manplex_before_after.png" alt="ManPlex Oldin va Keyin Natija">
+              </div>
+              <div class="ba-right-content">
+                <span class="mp-tag">Kafolatlangan Natija</span>
+                <h3>Oldin va keyin: aniq farqni hiss eting</h3>
+                <div class="before-after-flex">
+                  <div class="ba-col ba-before">
+                    <h4>❌ OLDIN (Muammolar):</h4>
+                    <ul>
+                      <li>❌ Xira va jonsiz sochlar</li>
+                      <li>❌ Hajmsiz va suyultirilgan</li>
+                      <li>❌ Quruq va mo'rt tolalar</li>
+                      <li>❌ Tez yog'lanadigan bosh terisi</li>
+                    </ul>
+                  </div>
+                  <div class="ba-col ba-after">
+                    <h4>✔️ KEYIN (ManPlex Natijasi):</h4>
+                    <ul>
+                      <li>✔️ Jiloli va tirik sochlar</li>
+                      <li>✔️ Hajmli va kuchli ko'rinish</li>
+                      <li>✔️ Namlangan va sog'lom teri</li>
+                      <li>✔️ Toza va fresh (tetik) his</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mp-action-row" style="margin-top: 24px;">
+                  <button class="btn-dark-green add-to-cart-btn" data-id="manplex-3in1" data-name="ManPlex™ 3-in-1 Male System" data-price="160000" data-img="assets/manplex_hero.jpg">
+                    <i class="fa-solid fa-cart-shopping"></i> ManPlex™ Xarid Qilish — 160 000 so'm
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Shop By Hair Concern Section (Circle Categories matching Template) -->
+    <section class="section concern-section" id="concerns">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">TAVSIYA ETILADIGAN PARVARISH</span>
+          <h2 class="section-title">SHOP BY HAIR CONCERN</h2>
+        </div>
+
+        <div class="concern-grid">
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779094480.jpg" alt="Hair Fall Concern">
+            </div>
+            <h3 class="concern-title">HAIR FALL</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779094512.jpg" alt="Damage Repair Concern">
+            </div>
+            <h3 class="concern-title">DAMAGE REPAIR</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779094475.jpg" alt="Frizz Control Concern">
+            </div>
+            <h3 class="concern-title">FRIZZ CONTROL</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779094480.jpg" alt="Curl Care Concern">
+            </div>
+            <h3 class="concern-title">CURL CARE</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779294527.png" alt="Oily Scalp Concern">
+            </div>
+            <h3 class="concern-title">OILY SCALP</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+
+          <div class="concern-card">
+            <div class="concern-img-circle">
+              <img src="assets/media_1785779094512.jpg" alt="Dry & Rough Concern">
+            </div>
+            <h3 class="concern-title">DRY & ROUGH</h3>
+            <a href="#bestsellers" class="concern-link">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section (Product Cards Grid) -->
+    <section class="section best-sellers-section" id="bestsellers">
+      <div class="container">
+        <div class="best-sellers-header">
+          <div>
+            <span class="section-subtitle">ENG MASHHUR MAHSULOTLAR</span>
+            <h2 class="section-title">BEST SELLERS</h2>
+          </div>
+          <a href="#solutions" class="view-all-link">
+            VIEW ALL <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="products-grid">
+          
+          <!-- Product Card 1: SilkPlex™ -->
+          <div class="product-card">
+            <button class="wishlist-heart-btn" title="Sevimlilarga qo'shish"><i class="fa-regular fa-heart"></i></button>
+            <div class="prod-img-box">
+              <img src="assets/media_1785779094475.jpg" alt="SilkPlex™ Professional Parvarish">
+            </div>
+            <div class="prod-details">
+              <h3 class="prod-title">💧 SilkPlex™ Professional</h3>
+              <p class="prod-subtext">SilkPlex™ — ipakdek silliq va sog‘lom sochlar uchun professional parvarish</p>
+              <ul class="prod-bullets">
+                <li>🔹 Barcha turdagi sochlar uchun</li>
+                <li>🔹 Kundalik foydalanishga mos</li>
+                <li>🔹 Silliqlik va tabiiy yaltiroqlik beradi</li>
+              </ul>
+              <p class="prod-subtext" style="font-style: italic; color: var(--brand-dark-cream);">
+                SilkPlex™ — quruq va parvarishga muhtoj sochlar uchun ideal tanlov
+              </p>
+              <div class="prod-price">320 000 so'm ($24.00)</div>
+              <div class="prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>(128 sharh)</span>
+              </div>
+              <button class="btn-add-cart add-to-cart-btn" data-id="silkplex-set" data-name="SilkPlex™ Professional Set" data-price="320000" data-img="assets/media_1785779094475.jpg">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Product Card 2: ArganPlex™ -->
+          <div class="product-card">
+            <button class="wishlist-heart-btn" title="Sevimlilarga qo'shish"><i class="fa-regular fa-heart"></i></button>
+            <div class="prod-img-box">
+              <img src="assets/media_1785779094512.jpg" alt="ArganPlex™ Intensiv Parvarish">
+            </div>
+            <div class="prod-details">
+              <h3 class="prod-title">🌰 ArganPlex™ Rejuvenating</h3>
+              <p class="prod-subtext">ArganPlex™ — quruq va shikastlangan sochlar uchun intensiv parvarish</p>
+              <ul class="prod-bullets">
+                <li>🔸 Bo‘yalgan va zaiflashgan sochlar uchun</li>
+                <li>🔸 Issiq stylingdan himoya va tiklanish</li>
+                <li>🔸 Nafislik va sog‘lom ko‘rinish beradi</li>
+              </ul>
+              <p class="prod-subtext" style="font-style: italic; color: var(--brand-dark-cream);">
+                ArganPlex™ — sochingizga kuch va hayot bag‘ishlaydi
+              </p>
+              <div class="prod-price">330 000 so'm ($25.00)</div>
+              <div class="prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>(96 sharh)</span>
+              </div>
+              <button class="btn-add-cart add-to-cart-btn" data-id="arganplex-set" data-name="ArganPlex™ Rejuvenating Set" data-price="330000" data-img="assets/media_1785779094512.jpg">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Product Card 3: KeraPlex™ -->
+          <div class="product-card">
+            <button class="wishlist-heart-btn" title="Sevimlilarga qo'shish"><i class="fa-regular fa-heart"></i></button>
+            <div class="prod-img-box">
+              <img src="assets/media_1785779094480.jpg" alt="KeraPlex™ Keratin Tiklovchi">
+            </div>
+            <div class="prod-details">
+              <h3 class="prod-title">🔥 KeraPlex™ Renewing ✨</h3>
+              <p class="prod-subtext">KeraPlex™ — bo‘yalgan va shikastlangan sochlar uchun keratinli tiklovchi parvarish</p>
+              <ul class="prod-bullets">
+                <li>🔸 Mo‘rt va zaiflashgan sochlar uchun</li>
+                <li>🔸 Issiq styling ta’siridan tiklash</li>
+                <li>🔸 Yumshoqlik va tabiiy silliqlik beradi</li>
+              </ul>
+              <p class="prod-subtext" style="font-style: italic; color: var(--brand-dark-cream);">
+                KeraPlex™ — sog‘lom va kuchli sochlar siri 💛
+              </p>
+              <div class="prod-price">340 000 so'm ($26.00)</div>
+              <div class="prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>(142 sharh)</span>
+              </div>
+              <button class="btn-add-cart add-to-cart-btn" data-id="keraplex-set" data-name="KeraPlex™ Keratin Renewing Set" data-price="340000" data-img="assets/media_1785779094480.jpg">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Product Card 4: ManPlex™ 3 in 1 -->
+          <div class="product-card">
+            <button class="wishlist-heart-btn" title="Sevimlilarga qo'shish"><i class="fa-regular fa-heart"></i></button>
+            <div class="prod-img-box">
+              <img src="assets/manplex_hero.jpg" alt="ManPlex™ 3-in-1 Erkaklar Uchun">
+            </div>
+            <div class="prod-details">
+              <h3 class="prod-title">🧔 ManPlex™ 3 in 1 ✨</h3>
+              <p class="prod-subtext">ManPlex™ — erkaklar uchun yaratilgan to‘liq parvarish tizimi</p>
+              <ul class="prod-bullets">
+                <li>🔹 Soch</li>
+                <li>🔹 Tana</li>
+                <li>🔹 Soqol (Barchasi bitta formula ichida)</li>
+              </ul>
+              <p class="prod-subtext" style="font-style: italic; color: var(--brand-dark-cream);">
+                Toza va yoqimli hid bilan kuchli va ishonchli his beradi. 💥 Oddiylik va minimalizmni tanlaydigan erkaklar uchun.
+              </p>
+              <div class="prod-price">160 000 so'm ($14.00)</div>
+              <div class="prod-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>(88 sharh)</span>
+              </div>
+              <button class="btn-add-cart add-to-cart-btn" data-id="manplex-3in1" data-name="ManPlex™ 3-in-1 Male System" data-price="160000" data-img="assets/manplex_hero.jpg">
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem - Solution Comparison Section (Using User Provided Comparison Images) -->
+    <section class="section solutions-section" id="solutions">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">DIAGNOSTIKA VA YECHIM</span>
+          <h2 class="section-title">Sizning muammolaringiz — bizning yechimimiz</h2>
+        </div>
+
+        <div class="solutions-list">
+          
+          <!-- KeraPlex Comparison Card -->
+          <div class="solution-comparison-card">
+            <div class="comparison-grid">
+              <div class="problem-side">
+                <h3 class="comp-header-title">Sizning muammolaringiz</h3>
+                <div class="speech-bubbles-list">
+                  <div class="speech-bubble">Sochlarim shikastlangan</div>
+                  <div class="speech-bubble">Sochlarim bo'yalgan</div>
+                  <div class="speech-bubble">Sochlarim juda qattiq</div>
+                  <div class="speech-bubble">Menga termohimoya kerak</div>
+                  <div class="speech-bubble">Sochlarim xira va jilosiz</div>
+                </div>
+              </div>
+              <div class="solution-side">
+                <div class="solution-img-wrap">
+                  <img src="assets/media_1785779094480.jpg" alt="KeraPlex Solution">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SilkPlex Comparison Card -->
+          <div class="solution-comparison-card">
+            <div class="comparison-grid">
+              <div class="problem-side">
+                <h3 class="comp-header-title">Sizning muammolaringiz</h3>
+                <div class="speech-bubbles-list">
+                  <div class="speech-bubble">Sochlarimga termohimoya kerak</div>
+                  <div class="speech-bubble">Sochlarim namlikka muhtoj</div>
+                  <div class="speech-bubble">Sochlarim hurpayadi</div>
+                  <div class="speech-bubble">Sochlarim yaltiramaydi</div>
+                  <div class="speech-bubble">Sochlarim juda qattiq</div>
+                </div>
+              </div>
+              <div class="solution-side">
+                <div class="solution-img-wrap">
+                  <img src="assets/media_1785779094475.jpg" alt="SilkPlex Solution">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ArganPlex Comparison Card -->
+          <div class="solution-comparison-card">
+            <div class="comparison-grid">
+              <div class="problem-side">
+                <h3 class="comp-header-title">Sizning muammolaringiz</h3>
+                <div class="speech-bubbles-list">
+                  <div class="speech-bubble">Sochlarim quruq</div>
+                  <div class="speech-bubble">Sochlarim suvsizlangan</div>
+                  <div class="speech-bubble">Sochlarim yaltiramaydi</div>
+                  <div class="speech-bubble">Menga termohimoya kerak</div>
+                  <div class="speech-bubble">Sochlarim juda qattiq</div>
+                </div>
+              </div>
+              <div class="solution-side">
+                <div class="solution-img-wrap">
+                  <img src="assets/media_1785779094512.jpg" alt="ArganPlex Solution">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Promotional Dual Banners (LUXÉVA Layout) -->
+    <section class="section promo-banners-section">
+      <div class="container">
+        <div class="promo-banners-grid">
+          
+          <div class="promo-banner-card banner-left-style">
+            <div>
+              <div class="banner-tag">LIMITED TIME ONLY</div>
+              <h3 class="banner-title">20% OFF SITEWIDE</h3>
+              <p class="banner-desc">Birinchi xaridingiz uchun 20% chegirma oling! Promo-kod: <strong>Plex20</strong></p>
+            </div>
+            <a href="#bestsellers" class="btn-banner-dark">SHOP THE OFFER</a>
+          </div>
+
+          <div class="promo-banner-card banner-right-style">
+            <div>
+              <div class="banner-tag">Plex_uz REWARDS</div>
+              <h3 class="banner-title">GOOD HAIR DESERVES REWARDS</h3>
+              <p class="banner-desc">Earn points, unlock perks and enjoy exclusive offers for healthy glowing hair.</p>
+            </div>
+            <a href="#bestsellers" class="btn-banner-light">JOIN NOW</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Overall Result Slogan Highlight Banner -->
+    <section class="result-banner">
+      <div class="container">
+        <h2 class="result-banner-text">✨ Natija: sog‘lom, kuchli va jiloli sochlar ✨</h2>
+      </div>
+    </section>
+
+    <!-- Beauty In Your Inbox (Newsletter Section) -->
+    <section class="newsletter-section">
+      <div class="container newsletter-grid">
+        <div class="news-info">
+          <div class="news-icon"><i class="fa-regular fa-envelope"></i></div>
+          <div>
+            <h4 class="news-title">BEAUTY IN YOUR INBOX</h4>
+            <p class="news-desc">Subscribe for exclusive offers, hair tips & more.</p>
+          </div>
+        </div>
+
+        <form class="news-form" onsubmit="event.preventDefault(); alert('Rahmat! Siz muvaffaqiyatli obuna bo\'ldingiz.');">
+          <input type="email" class="news-input" placeholder="Enter your email address" required>
+          <button type="submit" class="btn-news-submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (LUXÉVA Layout Structure) -->
+  <footer class="footer" id="about">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col">
+          <h3 class="footer-brand-title">
+            <img src="assets/plex_logo.png" alt="Plex_uz Logo" class="footer-brand-logo">
+            Plex_uz
+          </h3>
+          <p class="footer-tagline">Inspired by nature. Made for healthy, beautiful hair.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">SHOP</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">New In</a></li>
+            <li><a href="#bestsellers">Hair Care</a></li>
+            <li><a href="#concerns">Hair Type</a></li>
+            <li><a href="#solutions">Collections</a></li>
+            <li><a href="#bestsellers">Best Sellers</a></li>
+            <li><a href="#bestsellers">Sale</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">CUSTOMER CARE</h4>
+          <ul class="footer-links-list">
+            <li><a href="#faq">Help & FAQs</a></li>
+            <li><a href="#shipping">Shipping & Delivery</a></li>
+            <li><a href="#returns">Returns & Refunds</a></li>
+            <li><a href="#track">Track Order</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">ABOUT US</h4>
+          <ul class="footer-links-list">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#hair-guide">Hair Guide</a></li>
+            <li><a href="#ingredients-section">Ingredients</a></li>
+            <li><a href="#manplex">ManPlex™ 3in1</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-trust-list">
+            <div class="footer-trust-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <strong>SECURE PAYMENT</strong>
+                <p>100% secure checkout</p>
+              </div>
+            </div>
+            <div class="footer-trust-item">
+              <i class="fa-solid fa-truck"></i>
+              <div>
+                <strong>FREE SHIPPING</strong>
+                <p>On orders over $49</p>
+              </div>
+            </div>
+            <div class="footer-trust-item">
+              <i class="fa-solid fa-rotate-left"></i>
+              <div>
+                <strong>EASY RETURNS</strong>
+                <p>30-day hassle-free returns</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Plex_uz Haircare. ALL RIGHTS RESERVED.</p>
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa" title="VISA"></i>
+          <i class="fa-brands fa-cc-mastercard" title="MasterCard"></i>
+          <i class="fa-brands fa-cc-paypal" title="PayPal"></i>
+          <i class="fa-brands fa-apple-pay" title="Apple Pay"></i>
+          <i class="fa-brands fa-google-pay" title="Google Pay"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shopping Cart Drawer Side-panel -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-bag-shopping"></i> Sizning Savatingiz</h3>
+      <button class="cart-close-btn" id="closeCartBtn"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="cart-body" id="cartBody">
+      <p class="cart-empty-text">Savat hali bo'sh. Mahsulotlarni tanlang!</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-summary" style="margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+          <span>Jami:</span>
+          <span id="subtotalVal">0 so'm</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-weight:bold; font-size:1.1rem;">
+          <span>Yakuniy Summa:</span>
+          <span id="totalVal">0 so'm</span>
+        </div>
+      </div>
+      <button class="btn-add-cart" id="checkoutBtn">
+        <i class="fa-brands fa-telegram"></i> Telegram Orqali Buyurtma Berish
+      </button>
+    </div>
+  </aside>
+
+  <!-- Floating Gemini AI Chat Widget -->
+  <div class="ai-chat-widget" id="aiChatWidget">
+    <button class="ai-chat-toggle-btn" id="aiChatToggleBtn" title="Plex_uz AI Konsultant">
+      <i class="fa-solid fa-sparkles"></i>
+      <span class="ai-btn-text">AI Yordamchi</span>
+      <span class="ai-pulse-dot"></span>
+    </button>
+
+    <div class="ai-chat-window" id="aiChatWindow">
+      <div class="ai-chat-header">
+        <div class="ai-header-info">
+          <div class="ai-avatar">
+            <i class="fa-solid fa-sparkles"></i>
+          </div>
+          <div>
+            <h4 class="ai-title">Plex_uz AI Konsultant ✨</h4>
+            <span class="ai-status"><span class="status-dot"></span> Onlayn | Gemini AI Powered</span>
+          </div>
+        </div>
+        <button class="ai-close-btn" id="aiChatCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="ai-chat-messages" id="aiChatMessages">
+        <div class="ai-message bot">
+          <div class="msg-bubble">
+            Assalomu alaykum! 👋 Men <strong>Plex_uz AI Konsultantiman</strong>.<br>
+            Sochingiz va soqolingiz holatiga ko'ra eng ideal parvarish vositasini tanlashda yordam beraman. Qanday savolingiz bor? ✨
+          </div>
+        </div>
+
+        <div class="ai-chips-wrap">
+          <button class="ai-chip" data-msg="Bo'yalgan va zararlangan sochga qaysi shampun mos?">✨ Bo'yalgan sochlar</button>
+          <button class="ai-chip" data-msg="Quruq soch uchun eng yaxshi to'plam qaysi?">🌰 Quruq sochlar</button>
+          <button class="ai-chip" data-msg="ManPlex 3in1 nima va u qanday ishlaydi?">🧔 ManPlex 3in1</button>
+        </div>
+      </div>
+
+      <div class="ai-chat-input-row">
+        <input type="text" id="aiChatInput" placeholder="Savolingizni yozing..." autocomplete="off">
+        <button id="aiSendBtn" class="ai-send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
